@@ -63,7 +63,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li a:hover {
+header nav ul li a#left_header:hover {
+    color: #000;
+}
+
+header nav ul li a#right_header:hover {
     color: #87898F;
 }
 
@@ -71,7 +75,109 @@ header nav ul li:last-of-type a {
     margin-right: 0;
 }
 
+section .product-slider {
+    margin-top: 70px;
+}
 
+section .product-slider .product {
+    border-radius: 30px;
+    border: 1px solid #DDD;
+    margin: 18px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+section .product-slider .product.new::before {
+    content: "New";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    text-align: center;
+    padding: 4px 15px;
+    border-radius: 40px;
+    background-color: #000;
+    color: #FFF;
+}
+
+section .product-slider .product .product-info {
+    padding: 50px; 
+}
+
+section .product-slider .product .product-picture {
+    padding: 50px;
+}
+
+section .product-slider .product .product-info .categories{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+section .product-slider .product .product-info .title{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    margin-bottom: 6px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+section .product-slider .product .product-info .description{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+section .product-slider .product .product-info .price{
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    margin-top: 0;
+}
+
+section .product-slider .product .product-info .price .discounted-price{
+    color: #000;
+}
+
+section .product-slider .product .product-info .price .original-price{
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+
+section .product-slider .product .product-info button{
+    height: 50px;
+    width: 200.5px;
+    border: 1px solid #000;
+    background-color: white;
+    border-radius: 220px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+section .product-slider .product-info button:hover {
+    border-color: #87898F;
+    background-color: #87898F;
+}
 
 footer {
     margin-top: 80px;

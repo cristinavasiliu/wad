@@ -4,12 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About us</title>
+        <title>Sign in</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/about_us_style.css">
+        <link rel="stylesheet" href="css/sign_in_style.css">
     </head>
 
     <body>
@@ -38,11 +38,89 @@
             </div>
         </header>
 
-        <footer>
+        <div class="registration">
+            <div class="title">
+                Register
+            </div>
+            <div class="form">
+                <div class="input_field">
+                    <label>First Name:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Last Name:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Username:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Password:</label>
+                    <input type="password" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Confirm Password:</label>
+                    <input type="password" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Email Address:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Gender:</label>
+                    <div class="custom_select">
+                        <select>
+                            <option value="">Select</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="female">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Phone Number:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Address:</label>
+                    <textarea class="textarea"></textarea>
+                </div>
+                <div class="input_field terms">
+                    <label class="check">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Agree to terms and conditions</p>
+                </div>
+                <input type="submit" value="Register">
+                <input type="reset">
+                </div>
+            </div>
+        </div>
 
+        <div class="registration">
+            <div class="title">
+                Login
+            </div>
+            <div class="form">
+                <div class="input_field">
+                    <label>Username:</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Password:</label>
+                    <input type="text" class="input">
+                </div>
+                <input type="submit" value="Register">
+                <input type="reset">
+            </div>
+
+        </div>
+
+        <footer>
             <div class="bottom-nav">
                 <div class="container">
-
                     <ul>
                         <li class="list-title">Categories</li>
                         <li><a href="instruments.html">Instruments</a></li>

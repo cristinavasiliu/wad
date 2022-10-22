@@ -63,13 +63,22 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li a:hover {
+header nav ul li a#left_header:hover {
+    color: #000;
+}
+
+header nav ul li a#right_header:hover {
     color: #87898F;
 }
 
 header nav ul li:last-of-type a {
     margin-right: 0;
 }
+
+
+
+
+
 footer {
     margin-top: 80px;
 }
