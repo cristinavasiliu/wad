@@ -85,7 +85,7 @@ section.sign-up .container {
     padding: 0 8px;
 }
 
-section.sign-up .login {
+section.sign-up .register {
     font-size: 20px;
     letter-spacing: 0.5px;
     line-height: 26px;
@@ -115,7 +115,8 @@ section.sign-up .form .input_field label {
     font-size: 14px;
 }
 
-section.sign-up .form .input_field .input {
+section.sign-up .form .input_field .input,
+section.sign-up .form .input_field .textarea {
     width: 100%;
     outline: none;
     border: 1px solid #DDD;
@@ -124,9 +125,42 @@ section.sign-up .form .input_field .input {
     transition: all 0.3s ease;
 }
 
-section.sign-up .form .input_field .input:focus {
+section.sign-up .form .input_field .textarea {
+    resize: none;
+    height: 100px;
+}
+
+section.sign-up .form .input_field .custom_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+section.sign-up .form .input_field .custom_select select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #DDD;
+    width: 100%;
+    height: 100%;
+    padding: 8px 10px;
+    outline: none;
+}
+
+section.sign-up .form .input_field .custom_select:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #DDD transparent transparent transparent;
+    pointer-events: none;
+}
+
+section.sign-up .form .input_field .input:focus,
+section.sign-up .form .input_field .textarea:focus,
+section.sign-up .form .input_field select:focus {
     background-color: #FFF;
-    border: 1px solid #4863A0;
+    border: 1px solid #4863A0	;
 }
 
 section.sign-up .form .input_field .button {
@@ -142,6 +176,9 @@ section.sign-up .form .input_field .button {
     line-height: 24px;
     cursor: pointer;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 section.sign-up .form .input_field .button:hover {
@@ -151,13 +188,6 @@ section.sign-up .form .input_field .button:hover {
 
 section.sign-up .form .input_field:last-child {
     margin-bottom: 0px;
-}
-
-section.sign-up .form .register {
-    padding-top: 10px;
-    width: max;
-    margin-right: 10px;
-    font-size: 14px;
 }
 
 footer {
