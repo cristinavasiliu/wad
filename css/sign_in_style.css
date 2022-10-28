@@ -144,6 +144,10 @@ section.sign-up .form .input_field .button {
     width: 100%;
 }
 
+section .login .form .register a {
+    color: #000;
+}
+
 section.sign-up .form .input_field .button:hover {
     border-color: #DDD;
     background-color: #DDD;
