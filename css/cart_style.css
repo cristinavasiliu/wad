@@ -123,12 +123,10 @@ section .cart-page .cart-table .cart-info {
 }
 
 th {
-    text-align: left;
     padding: 15px;
     color: #000;
     background-color: #DDD;
     font-weight: normal;
-
 }
 
 td {
@@ -159,17 +157,26 @@ section .cart-page .total-price {
 
 section .cart-page .total-price table {
     border-top: 3px solid #DDD;
+    padding-top: 10px;
     width: 100%;
-    max-width: 400px;
+    max-width: 385px;
+    text-align: left;
 }
 
+/* Align subtotal to middle */
 td:last-child {
     padding-right: 10px;
-    text-align: right;
+    text-align: center;
+}
+
+/* Align quantity box to middle */
+td:nth-last-child(even) {
+  padding-right: 10px;
+  text-align: center;
 }
 
 th:last-child {
-   text-align: right; 
+   text-align: center; 
 }
 
 footer {
