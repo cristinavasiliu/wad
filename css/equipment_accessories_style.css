@@ -110,6 +110,13 @@ section .product-slider .product .product-info {
 
 section .product-slider .product .product-picture {
     padding: 50px;
+    width: 300px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: 300px;
 }
 
 section .product-slider .product .product-info .categories{

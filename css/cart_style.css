@@ -112,6 +112,19 @@ section .cart-page .cart-table .cart-info .price{
     margin-top: 15px;
 }
 
+section .cart-page .cart-table .cart-info .price .discounted-price{
+    color: #000;
+}
+
+section .cart-page .cart-table .cart-info .price .original-price{
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 30px;
+    text-decoration: line-through;
+}
+
 table {
     width: 100%;
  }
@@ -120,6 +133,14 @@ section .cart-page .cart-table .cart-info {
     margin-top: 25px;
     display: flex;
     flex-wrap: wrap;
+}
+
+section .cart-page .cart-table .cart-info .product-picture {
+    padding-left: 50px;
+}
+
+section .cart-page .cart-table .cart-info .product-info {
+    padding-left: 50px;
 }
 
 th {
