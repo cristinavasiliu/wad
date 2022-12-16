@@ -75,6 +75,54 @@ header nav ul li:last-of-type a {
     margin-right: 0;
 }
 
+/* ---------- End of header -------------- */
+
+section .about-us {
+    margin-top: 70px;
+}
+
+section .about-us .text {
+    border-radius: 30px;
+    border: 1px solid #DDD;
+    margin: 18px 0;
+    padding: 50px;
+}
+
+section .about-us .text .title {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    margin-top: 0;
+    padding-bottom: none;
+}
+
+section .about-us .text .description{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+section .about-us .text .description1{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* ------------ End of middle section ----------------- */
+
 footer {
     margin-top: 80px;
 }
